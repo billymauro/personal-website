@@ -1,0 +1,120 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.img-circle {
+	width: 130px;
+	height: 130px;
+	object-fit: contain;
+	text-align: center;
+	display: block;
+    margin: 0 auto;
+}
+
+body {
+	background-color:#EFEDED;
+	font-family:"Avenir Next",Georgia,Serif;
+	font-size: 1.5rem;
+}
+
+.icons {
+  position: relative;
+  display: inline;
+  object-fit: contain;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+h5 {
+	font-family:"Helvetica Neue",Georgia,Serif;
+	font-size: .875rem;
+	color: white;
+}
+
+.icon-block {
+	background-color:#394046;
+}
+
+.dribbble {
+	display: inline;
+}
+
+.linkedin {
+	display: inline;
+}
+
+.github {
+	display: inline;
+}
+
+.facebook {
+	display: inline;
+}
+
+.twitter {
+	display: inline;
+}
+
+.instagram {
+	display: inline;
+}
+
+.divider {
+	height: 5px;
+	margin-top: 20px;
+}
+
+.row-spacing {
+	margin-top: 49px;
+}
+
+.card {
+	background-color: #394046;
+}
+
+.card .card-content {
+	text-align: center;
+	font-family: Helvetica Neue;
+    font-size: 14px;
+    color: white;
+}
+
+.card .card-action {
+	text-align: center;
+}
+
+.container .row {
+	margin-top: -40px;
+}
+
+footer.page-footer {
+	background-color: #d8d8d8;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+.card-content img {
+	height: 35px;
+}
+
+footer.page-footer .footer-copyright {
+	font-family: Helvetica Neue;
+	font-size: 14px;
+	color: #394046;
+	text-align: center;
+	font-weight: 400;
+}
