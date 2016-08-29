@@ -33,7 +33,7 @@
       <!-- <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a> -->
     </div>
   </nav>
-  <div class="section no-pad-bot" id="index-banner">
+  <div class="section no-pad-bot" id="index-banner" class=".show-on-medium-and-down">
     <div class="container">
 
       <img src="images/profile-image.png" alt="Billy Mauro Profile" class="img-circle">
@@ -117,8 +117,13 @@
                   </p>
               </div>
               <div class="card-action">
+<!--
                 <a href="https://www.tryrespond.com">Learn More
                 </a>
+-->
+        <!-- Modal Trigger -->
+          <a class="waves-effect waves-light btn modal-trigger" href="#modal1">LEARN MORE</a>
+                  
               </div>
           </div>
         </div>
@@ -133,8 +138,11 @@
               </p>
             </div>
             <div class="card-action">
+<!--
               <a href="https://www.twotap.com">Learn More
               </a>
+-->
+            <a class="waves-effect waves-light btn modal-trigger" href="#modal2">LEARN MORE</a>
             </div>
           </div>
           </div>
@@ -152,8 +160,11 @@
                   </p>
               </div>
                 <div class="card-action">
+<!--
                   <a href="https://www.angel.co/shopsy">Learn More
                   </a>
+-->
+                    <a class="waves-effect waves-light btn modal-trigger" href="#modal3">LEARN MORE</a>
                 </div>
             </div>
           </div>
@@ -168,8 +179,11 @@
                   </p>
               </div>
                 <div class="card-action">
+<!--
                   <a href="https://www.angelhack.com">Learn More
                   </a>
+-->
+                    <a class="waves-effect waves-light btn modal-trigger" href="#modal4">LEARN MORE</a>
                 </div>
             </div>
           </div>
@@ -181,6 +195,48 @@
 </div>
 </div>
 
+<!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+    
+     <div id="modal2" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+    
+     <div id="modal3" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+    
+     <div id="modal4" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+    
+    
         <footer class="page-footer">
           <div class="container">
             <div class="row">
@@ -199,6 +255,10 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+    <script>$(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $('.modal-trigger').leanModal();
+  });</script>
 
   </body>
 </html>

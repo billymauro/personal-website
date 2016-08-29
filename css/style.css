@@ -6,6 +6,28 @@
  * Made By MaterializeCSS.com
  */
 
+@media #{$large-and-up} {
+    #index-banner {
+        height: 550px;
+    }
+  }
+
+@media #{$medium-and-down} {
+    #index-banner {
+        height: 610px;
+    }
+  }
+
+@media #{$medium-and-up} {
+    // styles for medium screens and larger
+  }
+
+@media #{$small-and-down} {
+    // styles for small screens and down
+  }
+
+
+
 .icon-block {
   padding: 0 15px;
 }
